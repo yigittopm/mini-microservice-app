@@ -39,5 +39,6 @@ app.post('/events', (req,res) => {
 })
 
 app.listen(4000, () => {
+    console.log("Test 2 k8s!")
     console.log("Running on 4000!")
 })
